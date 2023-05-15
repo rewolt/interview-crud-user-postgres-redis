@@ -1,3 +1,9 @@
+
+# CRUD users with PostgreSQL and Redis based pub/sub
+
+Simple starting project that was requested by one of the interviewers.
+
+
 ## Run Locally
 
 Clone the project
@@ -18,3 +24,4 @@ Install & start docker containers
   docker run --name my-postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
   docker run --name my-redis -p 6379:6379 -d redis
 ```
+
